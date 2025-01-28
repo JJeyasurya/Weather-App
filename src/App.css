@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./wather.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
+.overall{
+    width:1350px;
+    height: 100vh;
+    /* background-color: rgb(235, 203, 161); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:380px;
+    padding:20px;
+    /* background-color:rgb(68, 93, 117); */
+    background-image: url(./wather.jpg);
+    background-repeat:no-repeat;
+    text-align: center;
+    box-shadow: 3px 3px  4px black;
+    color:thistle;
+    border-radius: 10px;
+
+
+}
+
+.card input{
+    padding:9px;
+    width: 280px;
+    margin: 10px 0px;
+    border-radius:20px;
+    border:2px solid white;
+    outline: none;
+    
+}
+button{
+    padding:10px;
+    border-radius:50%;
+    border: none;
+    margin-left:10px;
+    transition: all 1s;
+}
+button:hover{
+    scale:0.9;
+
+}
+.card h2{
+    margin:10px 0;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+    /* background-color: rgb(235, 203, 161); */
+    margin-top:18px;
+    /* padding:8px; */
+    color:thistle;
+    /* border: 2px dotted black; */
+
+}
